@@ -1,0 +1,34 @@
+{
+    "name": "web6/wp6",
+    "description": "WordPress Plugin 6",
+    "version": "0.0.1",
+    "type": "wordpress-plugin",
+    "keywords": ["wordpress", "wordpress-plugin", "seo"],
+    "homepage": "https://web6.fr",
+    "readme": "README.md",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "WEB6",
+            "email": "contact@web6.fr",
+            "homepage": "https://web6.fr",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/web6-fr/wp6/issues",
+        "docs": "https://github.com/web6-fr/wp6/wiki"
+    },
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^1.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/web6-fr/wp6"
+        }
+    ]
+}
